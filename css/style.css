@@ -209,3 +209,8 @@ nav{
 .focus-point h4{
     padding-bottom: 2rem;
 }
+
+
+.group > span{
+    font-size: .7rem;
+}
