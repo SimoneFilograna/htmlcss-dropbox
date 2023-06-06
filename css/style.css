@@ -19,7 +19,8 @@ section{
 }
 
 header{
-    width: 99vw
+    width: 99vw;
+    background-color: var(--first-color);
 }
 
 nav{
@@ -30,12 +31,13 @@ nav{
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .fixed-list{
     list-style: none;
     display: flex;
-    gap: 2.5rem;
+    gap: 2rem;
     font-size: .9rem;
     font-weight: 500;
 }
@@ -44,17 +46,56 @@ nav{
 .left-nav, .right-nav{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .btn{
     background-color: var(--second-color);
     color: white;
     border: none;
-    padding: .3rem .7rem;
+    padding: .5rem .7rem;
     font-size: .9rem;
 }
 
 .right-nav{
     flex-direction: row-reverse;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.hero-section{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.container-xl{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+
+.jumbo-img{
+    height: 400px;
+}
+
+.hero-btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.link-arrow i{
+    color: black;
+    font-size: 2.5rem;
+}
+
+.link-arrow{
+    display: inline-block;
+    margin-top: 30%;
 }
