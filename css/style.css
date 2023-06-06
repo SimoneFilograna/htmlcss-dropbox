@@ -206,11 +206,21 @@ nav{
 }
 
 
+.offer-list li {
+    padding-bottom: .9rem;
+    font-size: .8rem;
+}
+
+
 .focus-point h4{
     padding-bottom: 2rem;
 }
 
 
 .group > span{
-    font-size: .7rem;
+    font-size: .8rem;
+}
+
+.reso div {
+    font-size: 0.8rem;
 }
