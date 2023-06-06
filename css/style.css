@@ -10,8 +10,9 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;   
 }
+
 
 section{
     padding-top: 100px;
@@ -23,9 +24,22 @@ header{
     background-color: var(--first-color);
 }
 
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 nav{
     width: 100%;
 }
+
 
 .nav-container{
     padding: 20px 20px;
@@ -61,12 +75,6 @@ nav{
     flex-direction: row-reverse;
 }
 
-h1{
-    font-size: 4rem;
-    font-weight: 800;
-    text-align: left;
-    padding-bottom: 50px;
-}
 
 .hero-section{
     max-width: 1200px;
@@ -83,7 +91,12 @@ h1{
 
 .jumbo-img{
     height: 400px;
+    display: block; 
+    margin-bottom: -200px;
 }
+
+/* chiedere position */
+
 
 .hero-btn{
     margin-top: 30px;
@@ -97,5 +110,30 @@ h1{
 
 .link-arrow{
     display: inline-block;
-    margin-top: 30%;
+    margin-top: 25%;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+.header-section{
+    padding-bottom: 0px;
+}
+
+.desc p {
+    line-height: 1.3rem;
+}
+
+
+.radio{
+    padding-top: 2.5rem;
+}
+
+.radio label{
+    display: inline-block;
+    padding-right: 5rem;
+    font-size: .8rem;
 }
