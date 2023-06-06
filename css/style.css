@@ -130,10 +130,54 @@ nav{
 
 .radio{
     padding-top: 2.5rem;
+    padding-bottom: 2.3rem;
 }
 
 .radio label{
     display: inline-block;
     padding-right: 5rem;
     font-size: .8rem;
+}
+
+
+.card-catalog {
+    width: 100%;
+    display: flex;
+    gap: 3rem
+}
+
+.card{
+    flex-basis: 33%;
+    border: 1px solid rgb(208, 208, 211)
+}
+
+.group{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    border: 1px solid rgb(208, 208, 211)
+}
+
+.group i{
+    color: black;
+}
+
+.offer, .focus-point{
+    padding: 3rem 1.5rem 3rem 1.3rem;
+}
+
+.cost{
+    padding-bottom: 4rem;
+    line-height: 3rem;
+}
+
+.pad-reso{
+    padding-bottom: 1.3rem;
+}
+
+
+.offer .btn{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: .8rem 2.5rem;
 }
