@@ -310,3 +310,69 @@ nav{
 .link-color{
     color: blue;
 }
+
+.grey-btn{
+    color: black;
+    background-color: white;
+    border: 1px solid;
+}
+
+.square-container{
+    display: flex;
+    width: 99vw;
+}
+
+.flex-size{
+    display: flex;
+    flex-basis: 33.3%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.square {
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+}
+
+
+.square img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(50%);
+}
+
+.b-col-des{
+    background-color: rgb(162, 211, 155);
+    border: 15px solid rgb(209, 233, 205) ;
+}
+
+.b-col-asu{
+    background-color: rgb(97, 8, 43);
+}
+
+.b-col-ufe{
+    background-color: rgb(0, 147, 206);
+}
+
+.b-col-topp{
+    background-color: rgb(255, 28, 28);
+}
+
+.b-col-bicy{
+    background-color:rgb(213, 0, 31);
+}
+
+.b-col-hearst{
+    background-color: rgb(180, 208, 231);
+}
+
+.b-col-lonely{
+    background-color: rgb(13, 36, 129);
+}
+
+.b-col-clear{
+    background-color: rgb(255, 216, 48);
+}
