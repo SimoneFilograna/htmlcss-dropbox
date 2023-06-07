@@ -54,6 +54,8 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: white;
+    position: fixed;
+    width: 100%;
 }
 
 .fixed-list{
@@ -85,6 +87,7 @@ nav{
 
 
 .hero-section{
+    padding-top: 60px;
     max-width: 1200px;
     width: 100%;
     margin: auto;
