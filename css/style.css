@@ -376,3 +376,26 @@ nav{
 .b-col-clear{
     background-color: rgb(255, 216, 48);
 }
+
+.content-college{
+    padding: 3rem 3rem ;
+    height: 100%;
+}
+
+.content-college h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+
+.content-college p {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.mid-square{
+    height: 33vw;
+    overflow: auto;
+    background-color: rgb(245, 245, 245);
+}
+
