@@ -449,14 +449,17 @@ nav{
     background-color: black;   
 }
 
+.total-container{
+    max-width: 1200px;
+    margin: auto;
+}
 
 .footer-container{
-    max-width: 1200px;
+    width: 100%;
     display: flex;
-    margin: auto;
     justify-content: space-between;
     padding-top: 5rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
 }
 
 .info>h3{
@@ -475,4 +478,19 @@ nav{
 
 .footer-list li {
     font-size: .9rem;
+}
+
+.language{
+    color: grey;
+}
+
+.footer-line{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 10%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.language{
+    padding-bottom: 3rem;
 }
