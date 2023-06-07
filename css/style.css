@@ -251,15 +251,62 @@ nav{
     flex-basis: 70%;
 }
 
-.last-offer h3{  
+.p-pad{  
     padding-bottom: 1.5rem;
-}
-
-.last-offer p {
-    padding-top: 3.5rem;
+    padding-top: 2.5rem;
 }
 
 .bottom-offer-button .btn{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+}
+
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.img-left{
+    flex-basis: 60%;
+}
+
+.img-resize{
+    width: 100%;
+}
+
+.title-offer{
+    padding-bottom: 2rem;
+}
+
+.desc .p-pad{
+    line-height: 1.5rem;
+}
+
+.desc h3{
+    line-height: 2rem;
+}
+
+.fn-card{
+    flex-basis: 30%;
+}
+
+.function{
+    flex-wrap: wrap;
+    padding-top: 3.5rem;
+}
+
+
+.ad{
+    margin-top: 200px;
+    width: 70%;
+}
+
+.ad h2{
+    padding-bottom: 4rem;
+}
+
+.link-color{
+    color: blue;
 }
