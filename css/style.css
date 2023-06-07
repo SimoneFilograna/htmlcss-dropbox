@@ -167,7 +167,7 @@ nav{
     padding-top: .5rem;
     padding-bottom: .5rem;
     text-align: center;
-    border: 1px solid rgb(208, 208, 211);   
+    border-bottom: 1px solid rgb(208, 208, 211);   
 }
 
 .group i{
