@@ -118,7 +118,8 @@ nav{
 
 .link-arrow{
     display: inline-block;
-    margin-top: 25%;
+    margin-top: 20%;
+    padding-bottom: 5%;
 }
 
 .container{
@@ -217,10 +218,3 @@ nav{
 }
 
 
-.group > span{
-    font-size: .8rem;
-}
-
-.reso div {
-    font-size: 0.8rem;
-}
