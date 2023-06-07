@@ -95,8 +95,19 @@ nav{
 
 .container-xl{
     display: flex;
-    gap: 2.5rem;
+    gap: 1.5rem;
     justify-content: center;
+    width: 100%;
+}
+
+.desc{
+    flex-basis: 35%;
+    flex-grow: 1;
+}
+
+.img-hero{
+    flex-basis: 65%;
+    flex-grow: 0;
 }
 
 
