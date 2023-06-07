@@ -399,3 +399,43 @@ nav{
     background-color: rgb(245, 245, 245);
 }
 
+
+.container-box{
+    background-color: var(--first-color);
+}
+
+.bottom-square{
+    padding: 7rem 3rem;
+    display: flex;
+    justify-content: center;  
+    gap: 8rem;
+}
+
+.ad-text{
+    flex-basis: 60%;
+    color: rgb(97, 7, 42);
+}
+
+.border-btn{
+    border: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+.ask{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-top: 1px solid black; 
+}
+
+.answ-arrow span i{
+    padding-right: 2rem;
+}
+
+.question{
+    padding-top: 5rem;
+}
+
