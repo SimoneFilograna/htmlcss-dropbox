@@ -338,7 +338,7 @@ nav{
 }
 
 .square img{
-    width: 50%;
+    transform: scale(50%);
 }
 
 .b-col-des{
