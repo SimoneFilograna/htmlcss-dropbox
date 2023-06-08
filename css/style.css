@@ -153,6 +153,10 @@ nav{
 }
 
 
+.padding-grow{
+    padding-top: 100px;
+}
+
 .radio{
     padding-top: 2.5rem;
     padding-bottom: 2.3rem;
