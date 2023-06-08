@@ -442,15 +442,12 @@ nav{
     height: 100%;
 }
 
-.content-college h2{
-    font-size: 3rem;
-    font-weight: 800;
-}
 
 
 .content-college p {
     padding-top: 8rem;
     padding-bottom: 3rem;
+    line-height: 25px;
 }
 
 .mid-square{
